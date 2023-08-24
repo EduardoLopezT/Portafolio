@@ -1,0 +1,42 @@
+.formacion {
+  margin-top: 2rem;
+  background-color: #dfe1ff;
+  width: screen;
+  padding-left: 10%;
+  padding-right: 10%;
+  display: flex;
+  justify-content: center;
+}
+
+.formacion__container {
+  width: 71rem;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.formacion__title {
+  text-align: center;
+}
+
+.card__container {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.card__formacion {
+  background-color: white;
+  width: 368px;
+  height: 286px;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 16px;
+  box-sizing: border-box;
+}
+
+.card__container img {
+  width: 100%;
+}

@@ -1,0 +1,65 @@
+.title {
+  display: flex;
+  height: 23rem;
+  margin-top: 2rem;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  max-width: 71rem;
+  align-self: center;
+  height: fit-content;
+}
+
+.title div ul {
+  margin: 0;
+  padding: 0;
+}
+
+.title__nav img {
+  height: 12px;
+  margin-left: 5px;
+}
+
+.title__img {
+  border-radius: 100%;
+  height: 23rem;
+  width: 23rem;
+}
+
+.title__nav {
+  display: flex;
+  gap: 2rem;
+}
+
+.title__text {
+  max-width: 70ch;
+  line-height: 1.5;
+}
+
+.title h1 {
+  font-size: 52px;
+  max-width: 25ch;
+}
+
+.title a:hover {
+  color: #50dd61;
+}
+
+.title h1 span {
+  color: #50dd61;
+}
+
+@media screen and (max-width: 768px) {
+  .title h1 {
+    font-size: 22px;
+    max-width: 40ch;
+  }
+  .title__img {
+    width: 146px;
+    height: 146px;
+  }
+  .title {
+    gap: 32px;
+    height: 210px;
+  }
+}
