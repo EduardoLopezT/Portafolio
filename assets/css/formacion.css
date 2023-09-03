@@ -40,3 +40,23 @@
 .card__container img {
   width: 100%;
 }
+
+@media screen and (max-width: 768px) {
+  .card__formacion {
+    width: 224px;
+    height: 118px;
+  }
+  .formacion__date {
+    font-size: 16px;
+  }
+  .formacion__container p {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .card__container {
+    flex-direction: column;
+    align-items: center;
+  }
+}

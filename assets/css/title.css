@@ -63,3 +63,21 @@
     height: 210px;
   }
 }
+
+@media screen and (max-width: 360px) {
+  .title {
+    flex-direction: column;
+    padding: 16px;
+    box-sizing: border-box;
+    height: fit-content;
+    width: calc(100%-20px);
+    max-width: 100%;
+  }
+  .title__container {
+    max-width: 100%;
+  }
+  .title__nav {
+    max-width: 100%;
+    gap: 5px;
+  }
+}

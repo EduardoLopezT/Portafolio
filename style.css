@@ -19,7 +19,6 @@ body {
   padding: 0;
   line-height: 1;
   color: #464646;
-  margin-bottom: 50rem;
 }
 ol,
 ul,
@@ -42,6 +41,10 @@ a {
   justify-content: flex-end;
   padding: 16px;
   box-sizing: border-box;
+}
+
+.card img {
+  margin-bottom: 5px;
 }
 
 .card__name {
@@ -163,4 +166,24 @@ Utiliza las referencias de los breakpoints @media abajo */
     padding-left: 2rem;
     padding-right: 2rem;
   }
+}
+
+@media screen and (max-width: 360px) {
+  .first {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+}
+
+.footer {
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer div {
+  text-align: center;
+  font-size: 22px;
 }

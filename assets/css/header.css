@@ -48,7 +48,7 @@
 }
 
 @media screen and (max-width: 768px) {
-  .menu__list li:nth-child(-n + 5) {
+  .menu__list li:nth-child(-n + 3) {
     display: none;
   }
   .header {
